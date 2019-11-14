@@ -1,0 +1,36 @@
+.icon-1 {
+	font-size: 40px;
+	color: #fed136;
+	background-color: #ffffff;
+	border: 3px solid #fed136;
+	border-radius: 100%;
+	padding: 10px;
+}
+
+.icon-2 {
+	font-size: 20px;
+	color: black;
+	border: 3px solid black;
+	border-radius: 100%;
+	padding: 5px;
+}
+
+.icon-2:hover {
+	color: #fed136; 
+	text-decoration: none;
+	border: 3px solid #fed136;
+}
+
+.icon-3 {
+	font-size: 20px;
+	color: white;
+	border-radius: 100%;
+	border: 1px solid black;
+	background-color: black;
+	padding: 5px;
+}
+
+.icon-3:hover {
+	color: #fed136; 
+	text-decoration: none;
+}

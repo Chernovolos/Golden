@@ -1,0 +1,80 @@
+.section {
+	position: relative;
+	padding: 119px 0;
+	text-align: center;
+}
+
+.section-hero {
+	padding: 0;
+}
+
+.section-background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -2;
+}
+
+.section-background > img {
+	-o-object-fit: cover;
+	object-fit: cover;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.section-overlay {
+	position: absolute;
+	background-image: url(../../assets/images/background/Tint.png);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0.5;
+}
+
+.section-overlay-2 {
+	position: absolute;
+	background-image: url(../../assets/images/background/Map_Image.png);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0.5;
+}
+
+.section-body {
+	padding-top: 195px;
+	padding-bottom: 160px;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+	.section-body {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+	.section {
+		position: relative;
+		padding: 50px 0;
+		text-align: center;
+	}
+
+	.section-hero {
+		padding: 0;
+	}
+}
+
+.section-footer {
+	padding: 40px 0;
+}
+
+.section-brand {
+	padding: 50px;
+}

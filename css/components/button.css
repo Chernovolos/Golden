@@ -1,0 +1,12 @@
+.btn-warning {
+	color: #ffffff;
+	font-family: "Arial - Bold MT";
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+.btn-warning:hover {
+	color: #ffffff;
+}
